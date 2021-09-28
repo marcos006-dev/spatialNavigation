@@ -34,7 +34,7 @@ Descargue el repositorio e importe los siguientes archivos.
 ## Configuración
 
 ~~~
-Archivo spatialNavigation.css
+spatialNavigation.css
 ~~~
 
 > Para cambiar el borde del recuadro modificar la propiedad outline.
