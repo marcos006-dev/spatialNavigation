@@ -1,0 +1,116 @@
+/* Tag box configuration */
+*:focus {
+  outline: 3px solid #428bca !important;
+  background: yellow !important;
+  color: red !important;
+}
+
+/* .next-target-highlight {
+  background-color: #e1def8;
+  color: black;
+}
+
+.active-element-highlight {
+  background-color: #82858a;
+  outline: 1px solid #82858a !important;
+  color: black;
+}
+
+.hover-element-highlight {
+  background-color: #82858a !important;
+  outline: 3px solid red !important;
+  box-sizing: border-box !important;
+}
+
+.focusable-element-highlight {
+  outline: 2px solid #b0c4de !important;
+} */
+
+[spatNavTooltip] {
+  position: relative;
+  /* display:inline-block;*/
+}
+
+[spatNavTooltip]::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 4px 6px 0 6px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3) transparent transparent transparent;
+  z-index: 1000;
+  opacity: 1;
+}
+
+[spatNavTooltip-position="left"]::before {
+  left: 0%;
+  top: 50%;
+  margin-left: -12px;
+  transform: translatey(-50%) rotate(-90deg);
+}
+
+[spatNavTooltip-position="top"]::before {
+  left: 50%;
+}
+
+[spatNavTooltip-position="buttom"]::before {
+  top: 100%;
+  margin-top: 8px;
+  transform: translateX(-50%) translatey(-100%) rotate(-180deg);
+}
+
+[spatNavTooltip-position="right"]::before {
+  left: 100%;
+  top: 50%;
+  margin-left: 1px;
+  transform: translatey(-50%) rotate(90deg);
+}
+
+[spatNavTooltip]::after {
+  content: attr(spatNavTooltip);
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  transform: translateX(-50%) translateY(-100%);
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  padding: 4px 2px;
+  font-size: 12px;
+  min-width: 50px;
+  border-radius: 5px;
+  pointer-events: none;
+  padding: 4px 4px;
+  z-index: 1000;
+  opacity: 1;
+}
+
+[spatNavTooltip-position="left"]::after {
+  left: 0%;
+  top: 50%;
+  margin-left: -8px;
+  transform: translateX(-100%) translateY(-50%);
+}
+
+[spatNavTooltip-position="top"]::after {
+  left: 50%;
+}
+
+[spatNavTooltip-position="buttom"]::after {
+  top: 100%;
+  margin-top: 8px;
+  transform: translateX(-50%) translateY(0%);
+}
+
+[spatNavTooltip-position="right"]::after {
+  left: 100%;
+  top: 50%;
+  margin-left: 8px;
+  transform: translateX(0%) translateY(-50%);
+}
+/* 
+ [spatNavTooltip]:hover::after,[spatNavTooltip]:hover::before {
+    opacity:1
+    }  */
