@@ -10,8 +10,8 @@ Descargue el repositorio e importe los siguientes archivos.
     <head>
         <mate charest="utf-8" />
         <title>Título Página</title>
-		<!-- CSS file import Spatial Navigation -->
-		<link rel="stylesheet" type="text/css" href="src/spatialNavigation.css">
+	<!-- CSS file import Spatial Navigation -->
+	<link rel="stylesheet" type="text/css" href="src/spatialNavigation.css">
     </head>
     <body>
 	
