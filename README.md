@@ -53,6 +53,6 @@ spatialNavigation.css
 
 ## Ejemplo:
 
-Utilice las flechas direccionales para moverse por la pagina.
+Utilice las flechas direccionales para moverse por la página.
 
 [Spatial Navigation](https://marcos006-dev.github.io/spatialNavigation/)
