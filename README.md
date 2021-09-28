@@ -31,7 +31,7 @@ Descargue el repositorio e importe los siguientes archivos.
 </html>
 ```
 
-###Configuración
+##Configuración
 
 Si se desea cambiar el borde del recuadro, el color de la letra o el fondo del elemento en el momento que adquiera el foco.
 
