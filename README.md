@@ -33,8 +33,10 @@ Descargue el repositorio e importe los siguientes archivos.
 
 ## Configuración
 
-> Para cambiar el borde del recuadro modificar la propiedad outline. 
+> Para cambiar el borde del recuadro modificar la propiedad outline.
+> 
 > Para cambiar el color de la letra modificar la propiedad color.
+> 
 > Para modificar el fondo del elemento modificar la propiedad background.
 
 ```
