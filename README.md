@@ -33,6 +33,10 @@ Descargue el repositorio e importe los siguientes archivos.
 
 ## Configuración
 
+~~~
+Archivo spatialNavigation.css
+~~~
+
 > Para cambiar el borde del recuadro modificar la propiedad outline.
 > 
 > Para cambiar el color de la letra modificar la propiedad color.
